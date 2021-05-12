@@ -1,4 +1,6 @@
 ## Repo for the Machine Learning in Science collquium webpage at the University of Glasgow
+You need the correct venv to render the .ipynb to .html. Use the "pkg.txt" file in this repo to create and environment. Easiest to do with Anaconda (https://www.anaconda.com/).
+Just open anaconda prompt and type "conda create --name MLiS --file pkgs.txt" (The MLiS can be whatever name you want to give it). Then use "conda activate MLiS" and finally "jupyter notebook".
 
 Notes:
 	- get rid of table hovering color by commenting out ".rendered_html tbody tr:hover" in html file
